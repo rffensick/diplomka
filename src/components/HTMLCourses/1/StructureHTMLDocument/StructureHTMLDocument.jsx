@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header } from 'semantic-ui-react';
-import CodeTag from '../../../UI/Code.jsx';
+import CodeTag from '../../../UI/Code';
+import Target from '../../../UI/Target';
 import PTag from '../../../UI/PStudyText';
 import CourseStatus from '../../../UI/courseStatus';
 
@@ -9,7 +10,9 @@ const style = {
   height: '500px',
   border: '0',
   borderRadius: '4px',
-  overflow: 'hidden'
+  overflow: 'hidden',
+  marginTop: '50px',
+  boxShadow: '0px 0px 36px 0px rgba(0,0,0,0.75)'
 };
 
 const StructureHTMLDocument = () => {
@@ -33,6 +36,10 @@ const StructureHTMLDocument = () => {
         Тег <CodeTag>body</CodeTag> предназначен для хранения содержания
         веб-страницы (контента), отображаемого в окне браузера.
       </PTag>
+      <Header as="h2">А таперь немного практики!</Header>
+      <Target step="Цель 1">
+        Добавьте текст внутрь тега <CodeTag>body</CodeTag>. Как минимум 10 символов.
+      </Target>
       <iframe
         title="StructureHTMLDocument"
         src="https://codesandbox.io/embed/r05poq1qon?hidenavigation=1&codemirror=1&module=%2Findex.html"
