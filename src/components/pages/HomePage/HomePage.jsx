@@ -20,7 +20,13 @@ const HomePage = () => {
               HTML
             </Header>
             <PText>Основы HTML</PText>
-            <Button as={Link} to="/basic-html" fluid inverted color="orange">
+            <Button
+              as={Link}
+              to="courses/basic-html"
+              fluid
+              inverted
+              color="orange"
+            >
               Начать курс
             </Button>
           </GridColumn>
