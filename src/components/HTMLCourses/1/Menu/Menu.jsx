@@ -11,6 +11,12 @@ const Menu = ({ match: { url } }) => {
         <li>
           <Link to={`${url}/run/2`}>Заголовок HTML-страницы</Link>
         </li>
+        <li>
+          <Link to={`${url}/run/3`}>Кодировка HTML-страницы</Link>
+        </li>
+        <li>
+          <Link to={`${url}/run/4`}>Ключевые слова</Link>
+        </li>
       </ul>
     </nav>
   );
