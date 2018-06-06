@@ -6,6 +6,7 @@
     "@firebase/app-types": "0.x",
     "firebase": "^5.0.4",
     "history": "^4.7.2",
+    "markdown-to-jsx": "^6.6.6",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "^5.0.7",

@@ -8,19 +8,19 @@ const MenuHTML = props => {
   return (
     <nav>
       <li>
-        <Link to={`${url}/1/run/1`}>Структура HTML-документа</Link>
+        <Link to={`${url}/1`}>Структура HTML-документа</Link>
       </li>
       <li>
-        <Link to={`${url}/2/run/1`}>Разметка текста</Link>
+        <Link to={`${url}/2`}>Разметка текста</Link>
       </li>
       <li>
-        <Link to={`${url}/3/run/1`}>Ссылки и изображения</Link>
+        <Link to={`${url}/3`}>Ссылки и изображения</Link>
       </li>
       <li>
-        <Link to={`${url}/4/run/1`}>Знакомство с таблицами</Link>
+        <Link to={`${url}/4`}>Знакомство с таблицами</Link>
       </li>
       <li>
-        <Link to={`${url}/5/run/1`}>Знакомство с формами</Link>
+        <Link to={`${url}/5`}>Знакомство с формами</Link>
       </li>
     </nav>
   );

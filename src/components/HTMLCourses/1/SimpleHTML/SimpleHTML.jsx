@@ -1,8 +1,9 @@
 import React from 'react';
 import { Header } from 'semantic-ui-react';
+import Button from '../../../UI/Buttons';
 import CodeTag from '../../../UI/Code';
-import Target from '../../../UI/Target';
 import PTag from '../../../UI/PStudyText';
+import Target from '../../../UI/Target';
 import CourseStatus from '../../../UI/courseStatus';
 
 const style = {
@@ -15,7 +16,7 @@ const style = {
   boxShadow: '0px 0px 36px 0px rgba(0,0,0,0.75)'
 };
 
-const StructureHTMLDocument = () => {
+const SimpleHTML = () => {
   return (
     <section>
       <CourseStatus as="h3">× Курс «Структура HTML-документа»</CourseStatus>
@@ -38,7 +39,8 @@ const StructureHTMLDocument = () => {
       </PTag>
       <Header as="h2">А таперь немного практики!</Header>
       <Target step="Цель 1">
-        Добавьте текст внутрь тега <CodeTag>body</CodeTag>. Как минимум 10 символов.
+        Добавьте текст внутрь тега <CodeTag>body</CodeTag>. Как минимум 10
+        символов.
       </Target>
       <iframe
         title="StructureHTMLDocument"
@@ -46,8 +48,13 @@ const StructureHTMLDocument = () => {
         style={style}
         sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
       />
+      <div className="bottom-buttons solo-right">
+        <Button to="/courses/basic-html/1/run/2" color="green">
+          Следующие задание
+        </Button>
+      </div>
     </section>
   );
 };
 
-export default StructureHTMLDocument;
+export default SimpleHTML;

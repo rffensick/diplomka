@@ -25,3 +25,35 @@ h4,
 h5 {
   font-family: 'Open Sans', sans-serif !important;
 }
+
+.bottom-buttons {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bottom-buttons.both {
+  justify-content: space-between;
+}
+
+.bottom-buttons.solo-right a {
+  margin-left: auto;
+}
+
+.bottom-buttons.solo-left a {
+  margin-left: auto;
+}
+
+.lang-js {
+  background-color: #f5f5f5;
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 15px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 4px;
+}
