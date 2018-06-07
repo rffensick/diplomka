@@ -59,15 +59,16 @@ const SimpleHTML = () => {
       </PTag>
       <Header as="h2">А таперь немного практики!</Header>
       <Target step="Цель 1">
-        Измените мета-описание страницы с <RedText>Не пересказать</RedText> на
-        более полезное и ёмкое:{' '}
-        <RedText>
-          Как поисковые системы используют мета-описание страницы.
-        </RedText>
+        Сначала раскомментируйте оба тега <CodeTag>p</CodeTag> в разделе
+        <RedText>Комментарии для пояснений</RedText>
+      </Target>
+      <Target step="Цель 2">
+        Затем закомментируйте любой <CodeTag>p</CodeTag> в разделе{' '}
+        <RedText>Или когда удалять жалко</RedText>
       </Target>
       <iframe
         title="StructureHTMLDocument"
-        src="https://codesandbox.io/embed/210pwz7jmr?hidenavigation=1&codemirror=1&module=%2Findex.html"
+        src="https://codesandbox.io/embed/m70qzl8o1y?hidenavigation=1&codemirror=1&module=%2Findex.html"
         style={style}
         sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
       />

@@ -28,6 +28,7 @@ const DivBorder = styled.div`
   border-radius: 3px;
   flex-wrap: wrap;
   background-color: rgba(245, 245, 245, 0.95);
+  margin-bottom: 10px;
 `;
 
 const Target = props => {
