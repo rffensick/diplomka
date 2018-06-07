@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Link, Route, Switch } from 'react-router-dom';
+import { Button, Icon } from 'semantic-ui-react';
+import CourseStatus from '../../UI/courseStatus';
 import CharsetHTML from './CharsetHTML/CharsetHTML';
 import KeyWords from './KeyWords/KeyWords';
 import Menu from './Menu/Menu';
@@ -11,6 +13,20 @@ const StructureHTML = ({ match }) => {
     <Fragment>
       <Route exact path={match.url} component={Menu} />
 
+      <Route
+        path="/courses/basic-html/1/*"
+        render={() => (
+          <CourseStatus as="h3">
+            × Курс «Структура HTML-документа»
+            <Button as={Link} to="/courses/basic-html/1" animated="fade">
+              <Button.Content visible>Меню курса</Button.Content>
+              <Button.Content hidden>
+                <Icon name="right arrow" />
+              </Button.Content>
+            </Button>
+          </CourseStatus>
+        )}
+      />
       <Switch>
         <Route path="/courses/basic-html/1/run/1" component={SimpleHTML} />
         <Route path="/courses/basic-html/1/run/2" component={TitleHTML} />

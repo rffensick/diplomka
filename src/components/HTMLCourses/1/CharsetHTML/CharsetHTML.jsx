@@ -6,7 +6,6 @@ import CodeTag from '../../../UI/Code';
 import PTag from '../../../UI/PStudyText';
 import RedText from '../../../UI/RedText';
 import Target from '../../../UI/Target';
-import CourseStatus from '../../../UI/courseStatus';
 
 const style = {
   width: '100%',
@@ -22,7 +21,6 @@ const SimpleHTML = () => {
   const md = '```js \n<meta charset="имя кодировки">```';
   return (
     <section>
-      <CourseStatus as="h3">× Курс «Структура HTML-документа»</CourseStatus>
       <Header as="h1">Кодировка HTML-страницы [3/13]</Header>
       <PTag>
         Кодировку HTML-страницы нужно указывать для того, чтобы веб-браузер мог

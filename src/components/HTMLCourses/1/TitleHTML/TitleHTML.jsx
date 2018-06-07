@@ -7,7 +7,6 @@ import CodeTag from '../../../UI/Code';
 import PTag from '../../../UI/PStudyText';
 import RedText from '../../../UI/RedText';
 import Target from '../../../UI/Target';
-import CourseStatus from '../../../UI/courseStatus';
 import { Img } from './Style';
 
 const style = {
@@ -25,7 +24,6 @@ const StructureHTMLDocument = () => {
     '```js \n<head>\n\t<title>Заголовок HTML-страницы</title>\n</head>```';
   return (
     <section>
-      <CourseStatus as="h3">× Курс «Структура HTML-документа»</CourseStatus>
       <Header as="h1">Заголовок HTML-страницы [2/13]</Header>
       <PTag>
         Заголовок страницы — это тот текст, который отображается в левом верхнем

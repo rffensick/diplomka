@@ -4,6 +4,8 @@ const CourseStatus = styled.p`
   color: #666;
   font-size: 20px;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 `;
 
 export default CourseStatus;

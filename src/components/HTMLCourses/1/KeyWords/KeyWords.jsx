@@ -6,7 +6,6 @@ import CodeTag from '../../../UI/Code';
 import PTag from '../../../UI/PStudyText';
 import RedText from '../../../UI/RedText';
 import Target from '../../../UI/Target';
-import CourseStatus from '../../../UI/courseStatus';
 
 const style = {
   width: '100%',
@@ -23,7 +22,6 @@ const SimpleHTML = () => {
     '```js \n<meta name="keywords" content="разные, ключевые, слова">```';
   return (
     <section>
-      <CourseStatus as="h3">× Курс «Структура HTML-документа»</CourseStatus>
       <Header as="h1">Ключевые слова [4/13]</Header>
       <PTag>
         Есть целое семейство тегов <CodeTag>meta</CodeTag>, называемых
