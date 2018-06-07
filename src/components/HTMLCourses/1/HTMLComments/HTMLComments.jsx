@@ -73,10 +73,10 @@ const SimpleHTML = () => {
         sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
       />
       <div className="bottom-buttons both">
-        <Button to="/courses/basic-html/1/run/4" color="red">
+        <Button to="/courses/basic-html/1/run/5" color="red">
           Предыдущее задание
         </Button>
-        <Button to="/courses/basic-html/1/run/6" color="green">
+        <Button to="/courses/basic-html/1/run/7" color="green">
           Следующие задание
         </Button>
       </div>
