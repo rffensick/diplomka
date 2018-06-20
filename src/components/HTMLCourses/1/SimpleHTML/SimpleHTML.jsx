@@ -1,9 +1,9 @@
-import React from 'react';
-import { Header } from 'semantic-ui-react';
-import Button from '../../../UI/Buttons';
-import CodeTag from '../../../UI/Code';
-import PTag from '../../../UI/PStudyText';
-import Target from '../../../UI/Target';
+import React from 'react'
+import { Header } from 'semantic-ui-react'
+import Button from '../../../UI/Buttons'
+import CodeTag from '../../../UI/Code'
+import PTag from '../../../UI/PStudyText'
+import Target from '../../../UI/Target'
 
 const style = {
   width: '100%',
@@ -13,12 +13,12 @@ const style = {
   overflow: 'hidden',
   marginTop: '50px',
   boxShadow: '0px 0px 36px 0px rgba(0,0,0,0.75)'
-};
+}
 
 const SimpleHTML = () => {
   return (
     <section>
-      <Header as="h1">Простейшая HTML-страница [1/13]</Header>
+      <Header as="h1">Простейшая HTML-страница [1/10]</Header>
       <PTag>Простейшая HTML-страница состоит как минимум из трёх тегов.</PTag>
       <PTag>
         Тег <CodeTag>html</CodeTag> — это контейнер, в котором находится всё
@@ -52,7 +52,7 @@ const SimpleHTML = () => {
         </Button>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default SimpleHTML;
+export default SimpleHTML

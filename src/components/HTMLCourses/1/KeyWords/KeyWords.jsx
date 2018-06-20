@@ -1,11 +1,11 @@
-import Markdown from 'markdown-to-jsx';
-import React from 'react';
-import { Header } from 'semantic-ui-react';
-import Button from '../../../UI/Buttons';
-import CodeTag from '../../../UI/Code';
-import PTag from '../../../UI/PStudyText';
-import RedText from '../../../UI/RedText';
-import Target from '../../../UI/Target';
+import Markdown from 'markdown-to-jsx'
+import React from 'react'
+import { Header } from 'semantic-ui-react'
+import Button from '../../../UI/Buttons'
+import CodeTag from '../../../UI/Code'
+import PTag from '../../../UI/PStudyText'
+import RedText from '../../../UI/RedText'
+import Target from '../../../UI/Target'
 
 const style = {
   width: '100%',
@@ -15,14 +15,14 @@ const style = {
   overflow: 'hidden',
   marginTop: '50px',
   boxShadow: '0px 0px 36px 0px rgba(0,0,0,0.75)'
-};
+}
 
 const SimpleHTML = () => {
   const md =
-    '```js \n<meta name="keywords" content="разные, ключевые, слова">```';
+    '```js \n<meta name="keywords" content="разные, ключевые, слова">```'
   return (
     <section>
-      <Header as="h1">Ключевые слова [4/13]</Header>
+      <Header as="h1">Ключевые слова [4/10]</Header>
       <PTag>
         Есть целое семейство тегов <CodeTag>meta</CodeTag>, называемых
         мета-тегами. Их можно использовать внутри тега <CodeTag>head</CodeTag>.
@@ -68,7 +68,7 @@ const SimpleHTML = () => {
         </Button>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default SimpleHTML;
+export default SimpleHTML

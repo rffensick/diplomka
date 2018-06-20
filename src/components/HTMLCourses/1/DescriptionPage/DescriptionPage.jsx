@@ -1,12 +1,12 @@
-import meta_description from 'assets/img/basicHTML/meta_description.png';
-import Markdown from 'markdown-to-jsx';
-import React from 'react';
-import { Header } from 'semantic-ui-react';
-import Button from '../../../UI/Buttons';
-import Img from '../../../UI/Img';
-import PTag from '../../../UI/PStudyText';
-import RedText from '../../../UI/RedText';
-import Target from '../../../UI/Target';
+import meta_description from 'assets/img/basicHTML/meta_description.png'
+import Markdown from 'markdown-to-jsx'
+import React from 'react'
+import { Header } from 'semantic-ui-react'
+import Button from '../../../UI/Buttons'
+import Img from '../../../UI/Img'
+import PTag from '../../../UI/PStudyText'
+import RedText from '../../../UI/RedText'
+import Target from '../../../UI/Target'
 
 const style = {
   width: '100%',
@@ -16,13 +16,13 @@ const style = {
   overflow: 'hidden',
   marginTop: '50px',
   boxShadow: '0px 0px 36px 0px rgba(0,0,0,0.75)'
-};
+}
 
 const SimpleHTML = () => {
-  const md = '```js \n<meta name="description" content="краткое описание">```';
+  const md = '```js \n<meta name="description" content="краткое описание">```'
   return (
     <section>
-      <Header as="h1">Описание содержания страницы [5/13]</Header>
+      <Header as="h1">Описание содержания страницы [5/10]</Header>
       <PTag>
         Ещё один полезный для поисковых систем мета-тег — краткое описание
         страницы. Оно задаётся так:
@@ -70,7 +70,7 @@ const SimpleHTML = () => {
         </Button>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default SimpleHTML;
+export default SimpleHTML

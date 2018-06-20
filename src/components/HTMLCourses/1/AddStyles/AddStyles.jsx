@@ -1,10 +1,10 @@
-import Markdown from 'markdown-to-jsx';
-import React from 'react';
-import { Header } from 'semantic-ui-react';
-import Button from '../../../UI/Buttons';
-import CodeTag from '../../../UI/Code';
-import PTag from '../../../UI/PStudyText';
-import Target from '../../../UI/Target';
+import Markdown from 'markdown-to-jsx'
+import React from 'react'
+import { Header } from 'semantic-ui-react'
+import Button from '../../../UI/Buttons'
+import CodeTag from '../../../UI/Code'
+import PTag from '../../../UI/PStudyText'
+import Target from '../../../UI/Target'
 
 const style = {
   width: '100%',
@@ -14,13 +14,13 @@ const style = {
   overflow: 'hidden',
   marginTop: '50px',
   boxShadow: '0px 0px 36px 0px rgba(0,0,0,0.75)'
-};
+}
 
 const SimpleHTML = () => {
-  const md = '```js \n<head>\n\t<style>\n\t\tCSS-код\n\t</style>\n</head>```';
+  const md = '```js \n<head>\n\t<style>\n\t\tCSS-код\n\t</style>\n</head>```'
   return (
     <section>
-      <Header as="h1">Подключение стилей [7/13]</Header>
+      <Header as="h1">Подключение стилей [7/10]</Header>
       <PTag>
         CSS-стили можно писать внутри HTML-кода страницы или подключать их как
         внешний файл.
@@ -60,7 +60,7 @@ const SimpleHTML = () => {
         </Button>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default SimpleHTML;
+export default SimpleHTML

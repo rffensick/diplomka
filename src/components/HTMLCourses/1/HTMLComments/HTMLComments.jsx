@@ -1,11 +1,11 @@
-import Markdown from 'markdown-to-jsx';
-import React from 'react';
-import { Header, List, Message } from 'semantic-ui-react';
-import Button from '../../../UI/Buttons';
-import CodeTag from '../../../UI/Code';
-import PTag from '../../../UI/PStudyText';
-import RedText from '../../../UI/RedText';
-import Target from '../../../UI/Target';
+import Markdown from 'markdown-to-jsx'
+import React from 'react'
+import { Header, List, Message } from 'semantic-ui-react'
+import Button from '../../../UI/Buttons'
+import CodeTag from '../../../UI/Code'
+import PTag from '../../../UI/PStudyText'
+import RedText from '../../../UI/RedText'
+import Target from '../../../UI/Target'
 
 const style = {
   width: '100%',
@@ -15,13 +15,13 @@ const style = {
   overflow: 'hidden',
   marginTop: '50px',
   boxShadow: '0px 0px 36px 0px rgba(0,0,0,0.75)'
-};
+}
 
 const SimpleHTML = () => {
-  const md = '```js \n<!-- любой текст -->```';
+  const md = '```js \n<!-- любой текст -->```'
   return (
     <section>
-      <Header as="h1">HTML-комментарии [6/13]</Header>
+      <Header as="h1">HTML-комментарии [6/10]</Header>
       <PTag>Комментарий в HTML-коде задаётся так:</PTag>
       <PTag>
         <Markdown children={md} />
@@ -81,7 +81,7 @@ const SimpleHTML = () => {
         </Button>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default SimpleHTML;
+export default SimpleHTML

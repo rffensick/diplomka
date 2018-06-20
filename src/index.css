@@ -41,7 +41,7 @@ h5 {
 }
 
 .bottom-buttons.solo-left a {
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .lang-js {
@@ -54,6 +54,6 @@ h5 {
   word-break: break-all;
   word-wrap: break-word;
   white-space: pre-wrap;
-  border: 1px solid rgba(0,0,0,0.15);
+  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }

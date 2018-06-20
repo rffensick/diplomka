@@ -1,14 +1,14 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import { Container } from 'semantic-ui-react';
-import StructureHTML from '../../HTMLCourses/1';
-import MenuHTML from '../../MenuHTML';
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+import { Container } from 'semantic-ui-react'
+import StructureHTML from '../../HTMLCourses/1'
+import MenuHTML from '../../MenuHTML'
 
 const BasicHTML = props => {
   const {
     match: { url }
-  } = props;
-  console.log(url);
+  } = props
+  console.log(url)
   return (
     <Container>
       <Route exact path={url} render={MenuHTML} />
@@ -21,7 +21,7 @@ const BasicHTML = props => {
         <Route path={`${url}/5/run/1`} render={() => <h1>/5/run/1</h1>} />
       </Switch>
     </Container>
-  );
-};
+  )
+}
 
-export default BasicHTML;
+export default BasicHTML

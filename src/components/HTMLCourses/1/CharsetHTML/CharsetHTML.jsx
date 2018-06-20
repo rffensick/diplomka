@@ -1,11 +1,11 @@
-import Markdown from 'markdown-to-jsx';
-import React from 'react';
-import { Header } from 'semantic-ui-react';
-import Button from '../../../UI/Buttons';
-import CodeTag from '../../../UI/Code';
-import PTag from '../../../UI/PStudyText';
-import RedText from '../../../UI/RedText';
-import Target from '../../../UI/Target';
+import Markdown from 'markdown-to-jsx'
+import React from 'react'
+import { Header } from 'semantic-ui-react'
+import Button from '../../../UI/Buttons'
+import CodeTag from '../../../UI/Code'
+import PTag from '../../../UI/PStudyText'
+import RedText from '../../../UI/RedText'
+import Target from '../../../UI/Target'
 
 const style = {
   width: '100%',
@@ -15,13 +15,13 @@ const style = {
   overflow: 'hidden',
   marginTop: '50px',
   boxShadow: '0px 0px 36px 0px rgba(0,0,0,0.75)'
-};
+}
 
 const SimpleHTML = () => {
-  const md = '```js \n<meta charset="имя кодировки">```';
+  const md = '```js \n<meta charset="имя кодировки">```'
   return (
     <section>
-      <Header as="h1">Кодировка HTML-страницы [3/13]</Header>
+      <Header as="h1">Кодировка HTML-страницы [3/10]</Header>
       <PTag>
         Кодировку HTML-страницы нужно указывать для того, чтобы веб-браузер мог
         правильно отображать текст на странице. Если браузер неправильно
@@ -62,7 +62,7 @@ const SimpleHTML = () => {
         </Button>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default SimpleHTML;
+export default SimpleHTML

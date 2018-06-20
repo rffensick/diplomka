@@ -1,13 +1,13 @@
-import tab from 'assets/img/basicHTML/tab.png';
-import Markdown from 'markdown-to-jsx';
-import React from 'react';
-import { Header } from 'semantic-ui-react';
-import Button from '../../../UI/Buttons';
-import CodeTag from '../../../UI/Code';
-import PTag from '../../../UI/PStudyText';
-import RedText from '../../../UI/RedText';
-import Target from '../../../UI/Target';
-import { Img } from './Style';
+import tab from 'assets/img/basicHTML/tab.png'
+import Markdown from 'markdown-to-jsx'
+import React from 'react'
+import { Header } from 'semantic-ui-react'
+import Button from '../../../UI/Buttons'
+import CodeTag from '../../../UI/Code'
+import PTag from '../../../UI/PStudyText'
+import RedText from '../../../UI/RedText'
+import Target from '../../../UI/Target'
+import { Img } from './Style'
 
 const style = {
   width: '100%',
@@ -17,14 +17,14 @@ const style = {
   overflow: 'hidden',
   marginTop: '50px',
   boxShadow: '0px 0px 36px 0px rgba(0,0,0,0.75)'
-};
+}
 
 const StructureHTMLDocument = () => {
   const md =
-    '```js \n<head>\n\t<title>Заголовок HTML-страницы</title>\n</head>```';
+    '```js \n<head>\n\t<title>Заголовок HTML-страницы</title>\n</head>```'
   return (
     <section>
-      <Header as="h1">Заголовок HTML-страницы [2/13]</Header>
+      <Header as="h1">Заголовок HTML-страницы [2/10]</Header>
       <PTag>
         Заголовок страницы — это тот текст, который отображается в левом верхнем
         углу браузера, а также во вкладках.
@@ -63,7 +63,7 @@ const StructureHTMLDocument = () => {
         </Button>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default StructureHTMLDocument;
+export default StructureHTMLDocument
