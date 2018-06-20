@@ -2,7 +2,7 @@
   "name": "diploma-2-greate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rffensick.github.io/diplomka",
+  "homepage": "http://rffensick.github.io/diplomka/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "history": "^4.7.2",
